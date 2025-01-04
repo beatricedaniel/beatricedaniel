@@ -4,3 +4,4 @@ build:
   environment:
     HUGO_VERSION: 0.140.2
     HUGO_EXTENDED: "true"
+    HUGO_MULTILINGUAL: "true"
