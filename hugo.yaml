@@ -1,0 +1,59 @@
+baseURL: https://example.org/
+languageCode: fr-fr
+title: 
+theme: ["PaperMod"]
+
+defaultContentLanguage: fr
+
+buildDrafts: false # when false: hide content with draft variable set to true
+buildFuture: false
+buildExpired: false
+
+defaultTheme: auto # to switch between dark or light according to browser theme
+enableEmoji: true
+
+menu:
+  main:
+    - name: "Accueil"
+      url: "/"
+      weight: 1
+    - name: "Rechercher \U0001F50E"
+      url: "search/"
+      weight: 2
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+params:
+
+  #author: Béatrice DANIEL
+
+  #ShowBreadCrumbs: true
+
+  profileMode:
+    enabled: true
+    title: "\U0001F44B Bienvenue !" # optional default will be site title
+    subtitle: "Ici ça parle data et foot féminin."
+    imageUrl: "images/profil.png" # optional
+    imageTitle: "Photo de profil" # optional
+    #imageWidth: 120 # custom size
+    #imageHeight: 120 # custom size
+    relative: false
+    buttons:
+      - name: Tutoriels
+        url: tutoriels
+      - name: Blog
+        url: posts
+      - name: A propos
+        url: about
+
+  socialIcons: # optional
+    - name: "Github"
+      url: "https://github.com/beatricedaniel"
+    - name: "Medium"
+      url: "https://medium.com/@beatricedaniel"
+    - name: "Linkedin"
+      url: "https://fr.linkedin.com/in/beatrice-daniel-6a053039"
