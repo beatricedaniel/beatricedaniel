@@ -3,6 +3,6 @@
   publish = "public"        # Directory where Hugo outputs the built site
 
 [build.environment]
-  HUGO_VERSION = "0.115.0"  # Ensure you're using a recent compatible version of Hugo
+  HUGO_VERSION = "0.140.2"  # Ensure you're using a recent compatible version of Hugo
   HUGO_EXTENDED = "true"    # Enable extended version for SCSS support
   HUGO_MULTILINGUAL = "true"
