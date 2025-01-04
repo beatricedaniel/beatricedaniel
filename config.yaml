@@ -1,9 +1,7 @@
 baseURL: https://beatricedaniel.netify.app/
-languageCode: fr-FR
+languageCode: en-US
 title: 
 theme: ["PaperMod"]
-
-defaultContentLanguage: fr
 
 buildDrafts: false # when false: hide content with draft variable set to true
 buildFuture: false
