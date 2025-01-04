@@ -1,0 +1,6 @@
+build:
+  command: hugo --minify
+  publish: public
+  environment:
+    HUGO_VERSION: 0.140.2
+    HUGO_EXTENDED: "true"
